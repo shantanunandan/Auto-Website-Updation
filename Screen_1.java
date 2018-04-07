@@ -167,9 +167,7 @@ public class Screen_1 {
 		loginLabel1.setPreferredSize(new Dimension(256, 24));
 		passwordLabel.setPreferredSize(new Dimension(256, 24));
 		Login = new JTextField();
-	//	Login.addActionListener(new LoginLitner());
 		Password = new JPasswordField();
-   //	Password.addActionListener(new PasswordListner());
 		Submit1 = new JButton("Sign In");
 		//Adding Litstener to Submit button
 		Submit1.addActionListener(new Submit1Listner());
