@@ -222,37 +222,7 @@ public class Screen_1_Times {
 	    	driver.close();
 	    }//catch
 	    }//catch
-	      
-	    /*
-	  //going to 2nd edit
-	    try{
-	    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	    	driver.findElement(By.xpath("//div[2][@class='peuser_info_detail mrgn_b25']/div[1]/div[1]/a")).click(); 
-	    }catch(NoSuchElementException e){
-	    	driver.navigate().refresh();
-	    	Thread.sleep(4000);
-	    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	    	driver.findElement(By.xpath("html/body/div[5]/div[1]/div[4]/div[1]/div[1]/a")).click(); 
-	    }//catch
-	    
-	    
-	  
-	    //going to save .....
-	    try{
-	    	Thread.sleep(4000);
-	    	WebDriverWait wait = new WebDriverWait(driver,20);
-	    	wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='submit_button']")));
-	    	driver.findElement(By.xpath("//*[@id='submit_button']")).click();
-	    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	    }catch(NoSuchElementException e){
-	    	System.out.println("2");
-	    	Thread.sleep(4000);
-	    	driver.findElement(By.xpath(".//*[@id='submit_button']")).click();
-	    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	    }//catch
-	    
-	    
-	   */ 
+	       
 	    //Getting the final update
 	    try{
 	    	wb = driver.findElement(By.xpath("//div[@class='fnt11 fl mrgn_t10']"));
